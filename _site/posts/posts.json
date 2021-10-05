@@ -2,18 +2,18 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to Fortuitous Learnings",
-    "description": "Welcome to our new blog, Fortuitous Learnings. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to our my blog, Fortuitous Learnings. This is where \nI'll document my data science and analytics journey.\nIt will have a little bit of everything incluiding R, Python and even Excel.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Sofi GS",
+        "url": "https://sofi.gt"
       }
     ],
     "date": "2021-10-04",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-04T17:40:51-06:00",
+    "last_modified": "2021-10-04T18:35:07-06:00",
     "input_file": {}
   }
 ]

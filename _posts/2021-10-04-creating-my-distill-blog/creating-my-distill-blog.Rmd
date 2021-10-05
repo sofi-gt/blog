@@ -1,0 +1,63 @@
+---
+title: "Creating my distill blog"
+description: |
+  A short description of the post.
+author:
+  - name: Sofi GS
+    url: https://example.com/norajones
+date: 10-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+distill blog journey
+
+I had already bought a domain name. So I added the domain to netlify
+then netlify gave some dns records to change the nameserver in
+name cheap.
+
+
+Now distill
+Will be using the https://rstudio.github.io/distill/blog.html as reference
+
+Installed the package 
+was able to create a new project and go the option to create a distill blog
+(remember to install the package or the options wont appear)
+
+First barrier (after thinking of my blogs name) was the checkmark to configure
+for Github Pages. Since I will be deploying to Netlify, I will leave it unchecked.
+I hope it is the right configuration
+
+WHAT IS BLOG SCAFFOLDING?? Is it automatically created?
+
+ok, I added a description to the site yml but dont know 
+what url to use for the base_url  I think blog.sofi.gt (that is another rabbit hole)
+
+added the icon fa fa-rss and directed it to index.xml for easy access to rss feed
+just like the tell us in the blog post
+
+setting up git
+so I started with a local version because I didnt know if it was going to work
+used https://happygitwithr.com/existing-github-last.html to connecto to github
+usethis::use_github() was a breeze. To care of everything for me
+
+
+Tried to publish to netlify. Connected my github and gave access to specific repocs with my blog
+but then i got stuck
+https://docs.netlify.com/configure-builds/get-started/?_ga=2.187140328.1564737377.1633388227-367882985.1633388227#build-settings
+
+just added _site to publish directory and hit deploy site
+
+IT WORKED!!
+oops did not change the welcome blog post. I actually forgor to knit
+
+I want to change the home button to Blog button and link it to my site
+
+I succesfully added my blog!! subdomaing
