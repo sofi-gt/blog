@@ -1,0 +1,15 @@
+name: "blog"
+title: "Fortuitous Learnings"
+description: |
+  Documenting my data science journey
+base_url: https://blog.sofi.gt
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+output: distill::distill_article
